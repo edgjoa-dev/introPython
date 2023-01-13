@@ -34,8 +34,8 @@ b={3,4,5}
 ##############################################
 
     #Validar si un conjunto es subconjunto o Superconjunto o disconexos de otros 2
-c={1,2,3,4,5}
+# c={1,2,3,4,5}
 
-print(b.issubset(c))
-print(b.issuperset(c))
-print(b.isdisjoint(c))
+# print(b.issubset(c))
+# print(b.issuperset(c))
+# print(b.isdisjoint(c))

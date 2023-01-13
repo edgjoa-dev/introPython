@@ -46,8 +46,8 @@ r = float(input('Introduce el valor del radio: '))
 area = math.pi * r**2
 length = 2 * math.pi * r
 
-print(f'El radio es: {area}')
-print(f'La longitud de circunferencia es: {length}')
+print(f'El radio es: {area:.2f}')
+print(f'La longitud de circunferencia es: {length:.2f}')
 
 
 

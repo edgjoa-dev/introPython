@@ -1,0 +1,69 @@
+# Escribir la siguiente expresion en forma de expresión algorítmica
+# (a^3 * (b^2 - 2ac)) / 2b
+
+# a = float(input('escribe el valor del primer número:'))
+# b = float(input('escribe el valor del segundo número:'))
+# c = float(input('escribe el valor del tercero número:'))
+
+# resultado = (a**3 * (b**2 - 2*a*c))/(2*b)
+
+# print(f'El resultado es: {resultado}')
+
+########################################################################################
+
+#Determina la solución lógica de la siguiete operación:
+#((3+5*8)<3 and ((-6/3 * 4)+2<2)) or (a>b)
+
+# a = float(input('Escribe el valor deseado para a:'))
+# b = float(input('Escribe el valor deseado para b:'))
+
+# result = ((3+5*8)<3 and (((-6/3) * 4)+2<2)) or (a>b)
+
+# print(f'El resultado es: {result}')
+
+#######################################################################################
+
+# Realiza un programa para interccambiar al valor de 2 variables
+# por ejemplo a = 10 y b = 5 --> a = 5 y b = 10
+
+# a = int(input('Escribe un valor para a: '))
+# b = int(input('Escribe un valor para b: '))
+
+# a,b = b,a
+
+# print(f'El nuevo valor para a es: {a}')
+# print(f'El nuevo valor para b es: {b}')
+
+######################################################################################
+
+#Realiza un programa para ingresar el radio de un circulo y se soporte su área y la longitud de la circunferencia
+#área = pi * r^2 y Longitud = 2 * Pi * r
+import math
+
+
+r = float(input('Introduce el valor del radio: '))
+
+area = math.pi * r**2
+length = 2 * math.pi * r
+
+print(f'El radio es: {area}')
+print(f'La longitud de circunferencia es: {length}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

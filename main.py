@@ -38,19 +38,32 @@
 
 #Realiza un programa para ingresar el radio de un circulo y se soporte su área y la longitud de la circunferencia
 #área = pi * r^2 y Longitud = 2 * Pi * r
-import math
+#import math
 
 
-r = float(input('Introduce el valor del radio: '))
+# r = float(input('Introduce el valor del radio: '))
 
-area = math.pi * r**2
-length = 2 * math.pi * r
+# area = math.pi * r**2
+# length = 2 * math.pi * r
 
-print(f'El radio es: {area:.2f}')
-print(f'La longitud de circunferencia es: {length:.2f}')
+# print(f'El radio es: {area:.2f}')
+# print(f'La longitud de circunferencia es: {length:.2f}')
+
+####################################################################################
+
+'''
+Ejarcicio 5:
+Una tienda ofrece un descuento del 15% sobre el total de la compra
+el cliente desea saber cuanto deberá pagar en total co descuento
+'''
 
 
+cuenta = float(input('Ingresa el monto final de la compra: '))
 
+descuento = cuenta * 0.15
+suma_total = cuenta - descuento
+
+print(f'Total de la cuenta aplicado descuento es de: ${suma_total:.2f}')
 
 
 

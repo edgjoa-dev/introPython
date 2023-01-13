@@ -51,22 +51,22 @@
 
 ####################################################################################
 
-'''
-Ejarcicio 5:
-Una tienda ofrece un descuento del 15% sobre el total de la compra
-el cliente desea saber cuanto deberá pagar en total co descuento
-'''
+# '''
+# Ejarcicio 5:
+# Una tienda ofrece un descuento del 15% sobre el total de la compra
+# el cliente desea saber cuanto deberá pagar en total co descuento
+# '''
 
 
-cuenta = float(input('Ingresa el monto final de la compra: '))
+# cuenta = float(input('Ingresa el monto final de la compra: '))
 
-descuento = cuenta * 0.15
-suma_total = cuenta - descuento
+# descuento = cuenta * 0.15
+# suma_total = cuenta - descuento
 
-print(f'Total de la cuenta aplicado descuento es de: ${suma_total:.2f}')
+# print(f'Total de la cuenta aplicado descuento es de: ${suma_total:.2f}')
 
 
-
+#####################################################################################
 
 
 
